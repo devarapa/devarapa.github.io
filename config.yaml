@@ -1,14 +1,14 @@
+## Personal Portfolio
+
 baseURL: "https://devarapa.github.io"
 languageCode: "en-us"
 title: "Manasa Portfolio"
 theme: master
 
-## Personal Portfolio
-
-# Paginate: 3
-# disqusShortname: gurusabarish
-# googleAnalytics: G-DWJJVE27WD
-# canonifyURLs:  true
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-2NGQ039X52
+canonifyURLs:  true
 
 markup:
   goldmark:
