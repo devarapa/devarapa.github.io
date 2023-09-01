@@ -1,0 +1,366 @@
+baseURL: "https://devarapa.github.io"
+languageCode: "en-us"
+title: "Manasa Portfolio"
+theme: master
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+canonifyURLs:  true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+  #main:
+    #- identifier: blog
+      #name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+      #title: Example dropdown menu
+      #name: Dropdown
+      #weight: 2
+    #- identifier: dropdown1
+      #title: example dropdown 1
+      #name: example 1
+      #url: /#
+      #parent: dropdown
+      #weight: 1
+    #- identifier: dropdown2
+      #title: example dropdown 2
+      #name: example 2
+      #url: /#
+      #parent: dropdown
+      #weight: 2
+
+params:
+  #title: "Hugo Profile"
+  #description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  #favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
+    color:  
+        secondaryBackgroundColor: "Blue"
+    #darkmode:
+        #secondaryBackgroundColor: "Blue"
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #     textColor: "black"
+  #     secondaryTextColor: 
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hey there! I'm "
+    title: "Manasa Devarapalli"
+    #subtitle: 
+    content: "A passionate Computer Science Graduate Student who loves technology and using it to build features and products. I love learning about new things and travelling. 
+    <br> I currently live in Los Angeles, CA."
+    image: "images/PersonalPics/Devarapalli_Manasa_Headshot.png"
+    button:
+      background - color: 
+      enable: true
+      name: "Resume"
+      url: "https://drive.google.com/file/d/1UyY6QvxxGdVAUVQ9wEwLvp_uPNS3syB6/view?usp=sharing"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/dmanasa6
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/devarapa/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/accounts/login/?next=/manasa_devarapalli/
+      #customIcons:
+        #- icon: /fav.png
+        #  url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "I'm actively looking for Spring / Summer 2024 internships"
+    image: "images/PersonalPics/ManasaDevarapalliHeadshot.jpg"
+    content: |-
+     Currently working as Graduate Techincal Assistant at University of Southern California.
+     <br>
+     Feel free to drop me a line at devarapa@usc.edu or let's connect on [LinkedIn](https://www.linkedin.com/in/devarapa/).
+     <br> <br>
+     Skills, I am proficient at :
+     
+    skills:
+      enable: true
+      items:
+        - "Java"
+        - HTML | CSS | JS | React
+        - Bootstrap | NodeJS
+        - Version Control - Git
+        - Python
+        - "C | C++"
+        - "SQL, NoSQL"
+        - "MongoDB"
+        - "AWS"
+        - "Tableau | PowerBi"
+        - "Software Development"
+        - "Data Analysis"
+        - "Mentorship"
+        - "Team Player"
+       
+  # Education
+  experience:
+    enable: true
+    index: 2
+    items:
+      - job: Masters in Science, Computer Science
+        company: University of Southern California
+        companyUrl: "https://www.usc.edu/"
+        date: "January 2023 - Present"
+        info:
+          enable: true
+          content: Currently studying
+        featuredLink:
+          enable: true
+          name: Course Link
+          url: "https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/"
+        content: | 
+          Currently in my second semester (as of Fall 2023) and expected to graduate in Fall 2024. 
+          |- 
+          
+          Courses Taken : Database Management Systems, Analysis of Algorithms, Web Technologies (ongoing) , Multimedia System Design (ongoing)
+          
+          Other involvements include :
+          - Teaching Volunteer with Microsoft TEALS
+          - Event coordinator for USC Hindu Student Organization [View More](https://www.instagram.com/p/CpTmf-FLbzP/?igshid=MzRlODBiNWFlZA==)
+          - Active member of Rewriting The Code (RTC)
+          - Member of Society of Women Engineers
+        
+      - job: "Bachelors in Technology, Computer Science Engineering"
+        company: "Amirta Vishwa Vidyapeetham"
+        companyUrl: "https://www.amrita.edu"
+        date: "June 2016 - May 2020"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          name: "Academic Records"
+          url: "https://drive.google.com/file/d/1QwlhmV6g-OpPDOtXJeQsrk8PRcgXGKSM/view?usp=sharing"
+        content: |
+          - Courses Taken - Data Structures and Algorithms, Machine Learning, Operating Systems, Natural Language Processing, Object Oriented Programming, etc.
+          - Publiced the paper <b>"Generation of Call Graph for Java Higher Order Functions"</b> in 5th International Conference on Communication and Electronics Systems (ICCES) 2020.
+          - Attended CSA Undergraduate Summer School at Indian Institute of Science (IISc.), Bangalore. [Link](https://drive.google.com/file/d/1IraBWBsh83hclQm1mqslZhSAL24bJpv1/view?usp=sharing)
+
+  # Experience
+  education:
+    enable: true
+    index: false
+    items:
+
+      - title: "Technical Engineer"
+        school:
+          name: Information Technological Services, University of Southern California
+          url: "https://itservices.usc.edu/"
+        date: "Aug 2023 - Present"
+        content: |-
+          * Appointed as <b>Learning Environments Engineer</b>, LE engineer at ITS, USC.
+          * <b>Debug and troubleshoot issues</b> raised in all USC's Learning Environments.
+          
+        featuredLink:
+          enable: false
+
+      - title: "Graduate Course Mentor"
+        school:
+          name: "Electrical and Computer Engineering, University of Southern California"
+          url : "https://classes.usc.edu/term-20231/course/ee-595/"
+        date: "Jan 2023 - Jul 2023"
+        content: |-
+          * Graduate mentor for the course EE595 <b> Software Design and Optimization </b>, under the guidance of Professor Shahin Nazarian.
+          * Mentored 35+ students by organizing Q&A sessions and <b>office hours</b>.
+          * <b>Evaluated</b> theory and lab assignments, crafted assignment questions and coordinated sessions to address students queries.
+          
+        featuredLink:
+          enable: false
+
+      - title: "Software Development Engineer"
+        school:
+          name: "Amazon"
+          url: "https://www.amazon.com/fire-tablet-app-store-Apps-Games/s?k=fire+tablet+app+store&rh=n%3A2350149011"
+        date: "Jul 2020 - Jun 2022"
+        content: |-
+          * <b> Tech Stack Used : Java, SrpingBoot, Android, AWS, SQL </b>
+
+          * Worked as a SDE at Amazon Appstore team in Fire Tablets Org.
+          
+          * <b>Release manager</b> in the year 2021 and handled server deployments, client APK rollout, monitoring crashes and fatal errors, effectively communicating information between PM, QA, DA, and cross-functional teams.
+          * Led the <b>development</b> of several features and launches during my tenure :
+            - Integration of Movies/ TV shows tab into Appstore
+            - Purchase of third party app subscriptions directly from Appstore during app install/download.
+            - Engineered Low level and high level design to improve customer experience in downloading or installing apps during low storage on devices.
+            - Optimized 3p app launch time in tablets.
+          
+
+      - title: "Software Development Engineer Intern"
+        school:
+          name: "Amazon"
+          url: "https://developer.amazon.com/docs/gamecircle/faq-gamecircle.html"
+        date: "Jan 2020 - Jul 2020"
+        content: |-
+          * <b> Skills : Fron-end Development, Back-end Development, Problem Solving, Effective Communication. </b>
+          * Workes as a SDE Intern at Amazon GameCircle team in Fire Tablets Org.
+          * <b>Deprecated unused services</b> in GameCircle achieving reducing both maintaince and operational costs.
+          * Led <b>front-end development</b> of Shorts, a first-party app on Amazon Tablets that streams short-duration videos to users. 
+          * <b>Owned the setup of Sandbox</b> and server environments for Shorts, and demonstrated the app to leadership. 
+        featuredLink:
+          enable: true
+          name: Speaker at Intern Connect 2020
+          url: "https://www.linkedin.com/in/devarapa/overlay/1635504643096/single-media-viewer/?profileId=ACoAACeET8YBlv2afbbw7evyVcwLVltpea1s8t4"
+
+  #featuredLink:
+  #enable: true
+  #name: "My academic record"
+  #url: "https://example.com"
+
+  # Projects
+  achievements:
+    enable: true
+    items:
+      - title: Call Graph Construction in Higher Order Functions
+        content: Built an application to generate call graphs for higher order fucntions using Java. Published a paper on the same.
+        image: logo.png
+        url: https://github.com/dmanasa6/Call_Graph_Construction
+      - title: Gift You Buddy Web Application
+        content: Built a recommendation system based web app during ACMS, allowing customers to manage gifting tasks.
+        image: logo.png
+        url: https://github.com/dmanasa6
+      - title: Bookshelf
+        content: "Developed a web application that enables users to buy and sell either new or used books. Click to know more."
+        url: https://github.com/dmanasa6/Bookmark
+      - title: Information, Communication and Technology Service (ICTS)
+        content: Developed a Database Management System for ICTS to manage service requests from students and faculty efficiently.
+        url: https://github.com/dmanasa6
+      - title: Gas Detection IoT Device
+        content: Implemented a gas leakage or smoke detecting IOT device that will alert the user and turn off the gas regulator and main power supply if the intensity increases.
+        url: https://github.com/dmanasa6
+      - title: Student Management System
+        content: Created a Student Management System which records all the details of the student that can be accessed by parents or students or the advisors.
+        url: https://github.com/dmanasa6
+
+
+  # Achievements
+  projects:
+    enable: true
+    items:
+      - title: Viterbi Startup Garage Summer Smasher 2023
+        content: One of the selected participants for Summer Smasher Chapter 2023, an 8 week program to entrepreneurship conducted by USC Viterbi Start Garage.
+        image: /images/Achievements/SummerSmasherCertificate.png
+        featured:
+          name: Dean's Letter
+          link: https://drive.google.com/file/d/1f8m8RpZRLuMi405NnIi2zg9X4bvamrt1/view?usp=sharing
+        badges:
+          - "Leadership principles"
+          - "Entrepreneurship"
+        links:
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fa fa-globe
+            url: https://viterbiinnovation.usc.edu/competitions-and-programs/summer-smasher-2/
+
+      - title: Postman Student Expert Fundamentals API
+        content: Acheived Postman Student Expert Fundamentals API certificate. Certificate is yet to be received. [ Estimated date by Postman is 09/15/2023]
+        image: /images/Achievements/PostmanBadge.png
+        featured:
+          name: Details
+          link: https://academy.postman.com/intro-to-apis-and-postman
+        badges:
+          - "API"
+          - "Postman"
+        links:
+          - icon: fa fa-globe
+            url: https://academy.postman.com/intro-to-apis-and-postman
+
+
+      - title: Presented and published paper at ICCES 2020.
+        content: Published a paper titled “Generation of Call Graph for Java Higher Order Functions” in 5th International Conference on Communication and Electronics Systems (ICCES) 2020.
+        image: /images/Achievements/PaperPresentation.jpg
+        featured:
+          name: View Paper
+          link: https://ieeexplore.ieee.org/document/9138056
+        badges:
+          - "Research"
+          - "Publication"
+          - "Presentation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/dmanasa6/CallGraphConstruction
+
+      - title: Student Social Responsibility Project
+        content: Received Outstanding award for our team for the completion of our Student Social Responsibility project titles, Aksharasyatha.
+        image: /images/Achievements/SSRLogo.jpeg
+        featured:
+          name: Certificate
+          link: https://drive.google.com/file/d/1NQUj3ap8yueJRI2bLFOpmyKBqxls27Qs/view?usp=sharing
+        badges:
+          - "Communication"
+          - "Leadership"
+          - "Management"
+        
+      - title: Amazon Campus Mentorship Series 2019 - 2021
+        content: Mentee at ACMS Chapter in the year 2019. Continued to be a mentor at ACMS for the years 2020 and 2021.
+        image: /images/Achievements/ACMSLogo.png
+        featured:
+          name: Certificate
+          link: https://drive.google.com/file/d/1kRmSjedWa6iVFH0_5pA3GZ2v4ysx7duv/view?usp=sharing
+        badges:
+          - "Software Development"
+          - "Coorporate Training"
+          - "Mentorship"
+
+      - title: Proficiency Certificate 2017
+        content: Received Certificate of Proficiency for securing the highest rank in the academic year 2016-17.
+        image: /images/Achievements/ProficiencyLogo.jpeg
+        featured:
+          name: Certificate
+          link: https://drive.google.com/file/d/1KdoWF0Bkkhcj1OVbGBj-qTOe38KUpBMD/view?usp=sharing
+        badges:
+          - "Academics"
+          - "Education"
+          - "Scholar"
+
+  #Contact
+  contact:
+    enable: true
+    content: My inbox is always open. Feel free to ping, would love to connect!
+    email: devarapa@usc.com
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/dmanasa6
+      linkedin: https://www.linkedin.com/in/devarapa
+      instagram: https://www.instagram.com/manasa_devarapalli
