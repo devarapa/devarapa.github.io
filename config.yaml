@@ -3,10 +3,10 @@ languageCode: "en-us"
 title: "Manasa Portfolio"
 theme: master
 
-Paginate: 3
-disqusShortname: gurusabarish
-googleAnalytics: G-DWJJVE27WD
-canonifyURLs:  true
+# Paginate: 3
+# disqusShortname: gurusabarish
+# googleAnalytics: G-DWJJVE27WD
+# canonifyURLs:  true
 
 markup:
   goldmark:
