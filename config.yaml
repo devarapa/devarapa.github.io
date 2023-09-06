@@ -148,6 +148,7 @@ params:
           content: Currently studying
         featuredLink:
           enable: true
+          # Profile Link : https://usc-csm.symplicity.com/profiles/manasa.devarapalli
           name: Course Link
           url: "https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/"
         content: | 
@@ -258,7 +259,7 @@ params:
       - title: Gift You Buddy Web Application
         content: Built a recommendation system based web app during ACMS, allowing customers to manage gifting tasks.
         image: logo.png
-        url: https://github.com/dmanasa6
+        url: https://github.com/dmanasa6/GiftYouBuddy
       - title: Bookshelf
         content: "Developed a web application that enables users to buy and sell either new or used books. Click to know more."
         url: https://github.com/dmanasa6/Bookmark
